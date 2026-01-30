@@ -249,7 +249,7 @@ def traiter_fichier_javascript(chemin_fichier, contexte=""):
     return fichier_sortie
 
 def test():
-    Créer un fichier JavaScript de test
+    # Créer un fichier JavaScript de test
     test_js = '''const greeting = "Hello World";
         const apiKey = "sk_test_1234567890";
         const message = "Welcome to our application";
@@ -263,7 +263,7 @@ def test():
     with open('test.js', 'w') as f:
         f.write(test_js)
     
-    Traiter le fichier
+    # Traiter le fichier
     traiter_fichier_javascript(
         'test.js',
         contexte="Application web en français"
